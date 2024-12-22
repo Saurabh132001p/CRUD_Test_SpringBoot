@@ -1,0 +1,68 @@
+{
+	"info": {
+		"_postman_id": "b78a8a99-48a5-4504-850f-6b75d9f4c058",
+		"name": "CRUDExp",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "39713182"
+	},
+	"item": [
+		{
+			"name": "SaveProduct",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"pro_name\":\"Laptop\",\r\n    \"pro_quantity\":10,\r\n    \"pro_price\":4000,\r\n    \"category\":[\r\n        {\r\n\"name\":\"Electric\"\r\n        }\r\n    ]\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/Product/save"
+			},
+			"response": []
+		},
+		{
+			"name": "ReadProduct",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateProduct",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "updateCategory",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteProduct",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteCategory",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
